@@ -222,6 +222,7 @@ h2 {
     line-height: 44px;
     font-weight: 500;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h3 {
@@ -645,7 +646,8 @@ i-circled {
 }
 .split-image.hero-1 {
     height: 100vh;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, .3), hsla(0, 0%, 100%, 0) 25%), url(../images/header-img/1.jpg);
+    width: 80vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .3), hsla(0, 0%, 100%, 0) 25%), url(../images/header-img/1.png);
     background-position: 0px 0px, 50% 0px;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
@@ -664,7 +666,7 @@ i-circled {
         margin-top: -55px
     }
     .home .hero-scroll-button{
-        display: none;
+        display: relative;
     }
 }
 .hero-scroll-button {
@@ -835,13 +837,9 @@ i-circled {
 .link-v2:hover {
     box-shadow: 0 2px 0 0 #111;
 }
-.middle {
-    align-items: center;
-}
 
-.spaceyes {
-    margin-top: 100px;
-}
+
+
 .mfp-bg {
     background: #fff;
     opacity: 1
@@ -1149,6 +1147,7 @@ i-circled {
     z-index: -1
 }
 
+
 /*** 
 
 ====================================================================
@@ -1375,7 +1374,7 @@ i-circled {
 }
 
 .section {
-    padding: 100px 0
+    padding: 60px 0
 }
 
 @media (max-width:543px) {
@@ -1402,6 +1401,7 @@ i-circled {
 .section-title h2{
     margin-bottom: 24px;
     margin-top: 0;
+    text-align: center;
 }
 .section-title p{
     margin-bottom: 0;
@@ -1412,7 +1412,7 @@ i-circled {
     text-align: center;
 }
 .white{
-    color: rgba(255, 255, 255, 0.7) !important
+    color: rgba(0, 0, 0, 0.7) !important
 }
 .t-white{
     color: #fff !important
@@ -1568,6 +1568,7 @@ i-circled {
         padding-left: 0
     }
 }
+
 
 
 /*** 
@@ -2997,7 +2998,8 @@ padding-bottom: 70px
 ***/
 .testimonials-item{
     position: relative;
-    padding: 30px;
+    padding: 0px;
+    margin: 10px;
     border: 1px solid #777171;
     border-radius: 20px;
 }
@@ -3010,12 +3012,12 @@ padding-bottom: 70px
     background-repeat: no-repeat;
 }
 .testi-img img{
-    width: 65px;
+    width: 55px;
     border-radius: 50%;
 }
 .testi-content{
-    padding-left: 120px;
-    padding-right: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 .testi-review{
     color: hsla(0, 0%, 100%, .7);
@@ -3491,7 +3493,7 @@ padding-bottom: 70px
     flex: 1;
 }
 .blog-split-content .hero-split-intro{
-    padding: 172px 10% 70px;
+    padding: 172px 5% 70px;
 }
 .blog-img {
     position: fixed;
